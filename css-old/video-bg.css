@@ -1,0 +1,133 @@
+/* video background */
+
+.hero-image.digital-transformation .background-video {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    left: 50%;
+    bottom: 0;
+    margin: 0;
+    width: auto;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    display: block;
+    height: auto;
+  }
+
+
+  .hero-image.digital-transformation .background{
+    height: 100vh;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .digital-transformation {
+      height: 100vh;
+      overflow: hidden;
+  }
+
+  .hero-image .container .nav-button-wrapper a.nav-button:nth-child(even) {
+    background-color: #0099f8;
+}
+
+.hero-image .telstra-logo { 
+  max-width:206px;
+  min-width:206px;
+}
+
+.hero-image .container .nav-button-wrapper {
+  display: inline-table;
+}
+
+@media screen and (max-width: 720px){
+
+  .hero-image .container .nav-button-wrapper {
+    display: none;
+}
+
+}
+
+/* MENU */
+
+
+.hero-image .container .browse-menu .bar-content-wrapper nav.browse-menu-main .mega-menu {
+  display: block;
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+.hero-image .container .header-content-wrapper .telstra-logo .attachment-160x38 {
+  width: 136px;
+  height: 34px;
+}
+
+.menu-overflow {
+  overflow: auto !important;
+}
+
+@media only screen and (min-width: 1367px){
+  .hero-image .background {
+      min-height: 630px;
+  }
+}
+
+
+@media only screen and (max-width: 1366px) and (max-height: 600px){
+  .hero-image.digital-transformation .background{
+    height: auto;
+  }
+  .mobile-back-to-top {
+    margin-top: 4%;
+  }
+  .hero-image.digital-transformation .background-video {
+    min-height: 95%;
+    height: 95%;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .digital-transformation {
+      height: auto;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .hero-image .container .nav-button-wrapper a.nav-button {
+      font-size: 6.88px;
+  }
+  .hero-image .container .browse-menu .bar-content-wrapper nav.browse-menu-main .mega-menu {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 556px){
+  .hero-image.digital-transformation .container .header-content-wrapper .header-text-wrapper .hero-title h1 {
+      font-size: 46px;
+      line-height: 50px;
+  }
+  .hero-image.digital-transformation .background{
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .hero-image.digital-transformation .container .header-content-wrapper .header-text-wrapper .hero-title h1 {
+      font-size: 33px;
+      line-height: 40px;
+  }
+  .hero-image .container .header-content-wrapper .header-text-wrapper .hero-subtitle p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-text-wrapper {
+    width: 1700px;
+  }
+}
+

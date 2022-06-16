@@ -1,0 +1,67 @@
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+@mixin wrap {
+  margin: 0 auto;
+  width: 100%;
+
+  @include media--over--md {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @include media--over--lg {
+    max-width: 1200px;
+  }
+}
+
+@mixin dimensions($width, $height: $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin media--over--xs {
+  @media only screen and (min-width: $xs__min) {
+    @content;
+  }
+}
+
+@mixin media--over--sm {
+  @media only screen and (min-width: $sm__min) {
+    @content;
+  }
+}
+
+@mixin media--over--md {
+  @media only screen and (min-width: $md__min) {
+    @content;
+  }
+}
+
+@mixin media--upto--md {
+  @media only screen and (max-width: $md__min) {
+    @content;
+  }
+}
+
+@mixin media--over--lg {
+  @media only screen and (min-width: $lg__min) {
+    @content;
+  }
+}
+
+@mixin media--over--xl {
+  @media only screen and (min-width: $xl__min) {
+    @content;
+  }
+}
+
+@mixin circle($diameter) {
+  @include dimensions($diameter);
+  border-radius: 50%;
+}

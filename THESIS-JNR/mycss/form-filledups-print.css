@@ -1,0 +1,209 @@
+.form{
+    margin-top: 70px;
+     height: 100%;
+     width: 100%;
+     background-color: whitesmoke;
+     box-shadow: 0 0 15px 0px #6362624f;
+     margin-bottom: 50px;
+     padding-bottom: 20px;
+ }
+.teybol{
+    overflow: auto;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 10px;
+}
+table th, td {
+    padding: 15px;
+    border: 1px solid #c4c1c1;
+    color: #1b1b1b;
+    font-size: 18px;
+}
+.lbl{
+    color: #1b1b1b;
+}
+ .head{
+     width: 100%;
+     height: 100%;
+     background-color: rgb(235, 177, 177);
+     padding-bottom: 10px;
+    
+ }
+ .img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    float: right;
+}
+.itemnem{
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 17px;
+}
+.picture{
+    display: none;
+}
+.head2{
+    margin-top: 350px;
+}
+.datee{
+    color: #dd0000;
+    font-weight: 500;
+}
+.lbll{
+    color: #505050;
+    font-size: 15px;
+}
+.value{
+    color: #1b1b1b;
+    font-weight: 500;
+    font-size: 18px;
+
+   
+}
+.add{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.hed{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: #1b1b1b;
+    text-transform: capitalize;
+}
+.hed2{
+    margin-top: 80px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: #1b1b1b;
+    text-transform: capitalize;
+}
+.jnr{
+    color: #dd0000;
+}
+
+.contact{
+    color: #1b1b1b;
+    font-weight: 550;
+}
+.feee{
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 17px;
+   
+}
+.ref{
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 17px;
+   
+  
+}
+.firstlayer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.span2{
+    color: blue;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.col-lg-3{
+    height: 50px;
+    font-size: 15px;
+    color: #1b1b1b;
+    padding-top: 10px;
+}
+.col-lg-5{
+    height: 50px;
+    font-size: 15px;
+    color: #1b1b1b;
+    padding-top: 10px;
+}
+.span{
+    margin-left: 10px;
+}
+ 
+
+ .picture{
+    height: 300px;
+   
+ }
+ .cus_info{
+     margin-top: 5px;
+     margin-bottom: 20px;
+     border-bottom: 1px solid #c4c1c1;
+     padding-bottom: 10px;
+ }
+ .checkbox{
+     margin-right: 20px;
+ }
+ .income{
+   
+     margin-bottom: 20px;
+     border-bottom: 1px solid #c4c1c1;
+     padding-bottom: 10px;
+ }
+ .input{
+     width: 100%;
+     border: 1px solid rgb(202, 201, 201);
+     padding-left: 10px;
+     border-radius: 5px;
+ }
+ .rows{
+     margin-left: 70px;
+     height: 250px;
+     width: 270px;
+    margin-bottom: 40px;
+ }
+ .rowss{
+    margin-left: 30px;
+    height: 250px;
+    width: 270px;
+   
+}
+.margin{
+    height: 200px;
+    background-color: #1b1b1b;
+}
+.margin1{
+    height: 100px;
+}
+.agreement{
+   display: none;
+}
+ img{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    float: right;
+}
+ header{
+     margin-top: 20px;
+     text-align: left;
+     font-size: 25px;
+     color: #1b1b1b;
+     font-weight: bold;
+ }
+
+ .banks{
+     margin-top: 10px;
+ }
+ .agreement1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #a7a5a5;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #1b1b1b;
+    font-weight: 500;
+}
+ 

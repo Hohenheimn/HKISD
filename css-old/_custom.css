@@ -1,0 +1,443 @@
+.single-articles #content-page .hero-image,
+.single-country #content-page .hero-image,
+.single-industry_articles #content-page .hero-image {
+  padding-top: 0;
+}
+
+.single-articles #header,
+.single-country #header,
+.single-industry_articles #header {
+  background: #ffffff;
+}
+
+.single-articles
+  .hero-image
+  .container
+  .browse-menu
+  .bar-content-wrapper
+  .browse-trigger
+  .hamburger-icon
+  span,
+.single-country
+  .hero-image
+  .container
+  .browse-menu
+  .bar-content-wrapper
+  .browse-trigger
+  .hamburger-icon
+  span,
+.single-industry_articles
+  .hero-image
+  .container
+  .browse-menu
+  .bar-content-wrapper
+  .browse-trigger
+  .hamburger-icon
+  span {
+  background: #000000;
+}
+
+.single-articles
+  .hero-image
+  .container
+  .browse-menu
+  .bar-content-wrapper
+  .browse-trigger
+  span,
+.single-country
+  .hero-image
+  .container
+  .browse-menu
+  .bar-content-wrapper
+  .browse-trigger
+  span,
+.single-industry_articles
+  .hero-image
+  .container
+  .browse-menu
+  .bar-content-wrapper
+  .browse-trigger
+  span {
+  color: #000000;
+}
+
+p.text-black {
+  color: #000000 !important;
+}
+
+.single-articles #content-page section .btn,
+.single-country #content-page section .btn,
+.single-industry_articles #content-page section .btn {
+  background: #1670d5 !important;
+  /* display: inline; */
+  height: auto;
+  padding: 0;
+}
+
+.single-articles #content-page section .article-wrapper .row,
+.single-country #content-page section .article-wrapper .row,
+.single-industry_articles #content-page section .article-wrapper .row {
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+.single-articles section .btn span.btn-arrow,
+.single-country section .btn span.btn-arrow,
+.single-industry_articles section .btn span.btn-arrow {
+  height: 45px;
+  padding: 0;
+  margin: 0;
+  margin-left: 5px;
+  width: 45px;
+  position: relative;
+  top: -3px;
+  right: 0;
+  border-left: 3px solid #ffffff;
+  background: transparent;
+}
+
+.single-articles section .btn span.btn-arrow:after,
+.single-country section .btn span.btn-arrow:after,
+.single-industry_articles section .btn span.btn-arrow:after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+}
+
+.single-articles .margin-right-10 {
+  margin-right: 10px;
+}
+
+.single-articles .slick-prev,
+.single-articles .slick-next,
+.single-country .slick-prev,
+.single-country .slick-next,
+.single-industry_articles .slick-prev,
+.single-industry_articles .slick-next {
+  top: 31.5%;
+}
+
+.single-articles .multiple-items .slick-item-wrapper p.subheading,
+.single-country .multiple-items .slick-item-wrapper p.subheading,
+.single-industry_articles .multiple-items .slick-item-wrapper p.subheading {
+  text-transform: uppercase;
+}
+
+.single-articles .multiple-items .slick-item-wrapper p.text-size-32,
+.single-country .multiple-items .slick-item-wrapper p.text-size-32,
+.single-industry_articles .multiple-items .slick-item-wrapper p.text-size-32 {
+  font-family: 'AkkuratLight';
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+p.text-size-24 {
+  font-size: 24px;
+}
+
+.full-width-border {
+  padding: 30px 15px;
+  border: 1px solid #000000;
+}
+
+.full-width-border h4 {
+  font-size: 31px;
+  line-height: 31px;
+  margin-bottom: 15px;
+}
+
+/* INDUSTRY ARTICLES */
+
+#content-page .hero-image .hero-top-title {
+  float: none;
+  /* margin-top: 88px; */
+}
+
+#content-page .hero-image .hero-title {
+  margin: 52px 0px 5px;
+  width: 100%;
+}
+
+.hero-image .container .browse-menu .bar-content-wrapper .browse-trigger {
+  color: #000;
+}
+
+.hero-image
+  .container
+  .browse-menu
+  .bar-content-wrapper
+  .browse-trigger
+  .hamburger-icon
+  span {
+  background: #000;
+}
+
+section#heroindustry .background img {
+  /* height: 100%; */
+  object-fit: cover;
+  object-position: bottom;
+  /* width: 100%; */
+}
+
+.single-industry_articles .article-wrapper {
+  margin: 75px auto;
+}
+
+.article-wrapper p.article-heading {
+  color: #1670d5;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 28px !important;
+}
+
+/*  */
+
+.single-industry_articles .left-image,
+.single-industry_articles .right-image,
+.single-country .left-image,
+.single-country .right-image {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.single-industry_articles .left-image .flex-item-wrapper,
+.single-industry_articles .right-image .flex-item-wrapper,
+.single-country .left-image .flex-item-wrapper,
+.single-country .right-image .flex-item-wrapper {
+  width: 50%;
+}
+
+.single-industry_articles .left-image .flex-item-wrapper img,
+.single-industry_articles .right-image .flex-item-wrapper img,
+.single-country .left-image .flex-item-wrapper img,
+.single-country .right-image .flex-item-wrapper img {
+  width: 100%;
+}
+
+.single-industry_articles .right-image .text-wrap,
+.single-country .right-image .text-wrap {
+  padding: 0 30px 0 0 !important;
+}
+
+/* .single-industry_articles .article-middle {
+    margin-top: 95px;
+} */
+
+.article-middle .article-content {
+  padding-top: 10px !important;
+}
+
+.article-subheading {
+  color: #010000;
+  font-size: 24px !important;
+  font-weight: 500 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .single-industry_articles .left-image,
+  .single-industry_articles .right-image,
+  .single-country .left-image,
+  .single-country .right-image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .single-industry_articles .left-image .flex-item-wrapper,
+  .single-industry_articles .right-image .flex-item-wrapper,
+  .single-country .left-image .flex-item-wrapper,
+  .single-country .right-image .flex-item-wrapper {
+    width: 100%;
+  }
+  .single-industry_articles .left-image .flex-item-wrapper img,
+  .single-industry_articles .right-image .flex-item-wrapper img,
+  .single-country .left-image .flex-item-wrapper img,
+  .single-country .right-image .flex-item-wrapper img {
+    margin: 0 auto;
+  }
+  .single-industry_articles .left-image .flex-item-wrapper .text-wrap,
+  .single-industry_articles .right-image .flex-item-wrapper .text-wrap,
+  .single-country .left-image .flex-item-wrapper .text-wrap,
+  .single-country .right-image .flex-item-wrapper .text-wrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .single-industry_articles
+    .left-image
+    .flex-item-wrapper
+    .text-wrap
+    .article-content,
+  .single-industry_articles
+    .right-image
+    .flex-item-wrapper
+    .text-wrap
+    .article-content,
+  .single-country .left-image .flex-item-wrapper .text-wrap .article-content,
+  .single-country .right-image .flex-item-wrapper .text-wrap .article-content {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .single-country .right-image .img-wrap,
+  .single-industry_articles .right-image .img-wrap,
+  .single-articles .right-image .img-wrap {
+    margin-top: 50px;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .single-industry_articles .row,
+  .single-country .row {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .telstra-logo-article {
+    height: 10%;
+    position: absolute;
+    right: 15%;
+    width: 100px;
+  }
+  .hero-top-title {
+    left: 0;
+    position: absolute;
+    top: 20%;
+  }
+  #content-page .hero-image .hero-title {
+    margin: 63px 0 5px;
+  }
+}
+
+/*  */
+
+.article-wrapper p.article-content {
+  color: #010000;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  padding-top: 15px;
+}
+
+section#heroindustry .header-text-wrapper-article,
+section#heroindustry .telstra-logo-article {
+  margin-top: 30px;
+}
+
+section#heroindustry .header-text-wrapper-article {
+  width: 90%;
+}
+
+section#heroindustry .telstra-logo-article {
+  /* width: 10%; */
+}
+
+section#heroindustry .telstra-logo-article img {
+  display: block;
+}
+
+@media screen and (min-width: 1367px) {
+  section#heroindustry .header-text-wrapper-article,
+  section#heroindustry .telstra-logo-article,
+  .cta-wrapper {
+    margin-top: 65px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header-text-wrapper-article {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  section#heroindustry .header-text-wrapper-article {
+    width: 85%;
+  }
+}
+
+section#heroindustry .telstra-logo-article p {
+  font-family: 'Akkurat-Bold' !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  letter-spacing: -0.5px !important;
+  margin-bottom: 8px !important;
+}
+
+.article-cta {
+  background: #1670d5;
+  color: #fff;
+  font-family: 'Akkurat';
+  font-size: 20px;
+  margin-top: 21px;
+  padding: 12px 0 12px 14px;
+}
+
+.subheading {
+  color: #010000;
+  font-family: 'Akkurat';
+  font-size: 17px;
+}
+
+.cta-wrapper {
+  display: flex;
+  margin-top: 2px;
+}
+
+@media screen and (max-width: 576px) {
+  .cta-wrapper {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #content-page section .article-wrapper .download-btn-wrapper {
+    padding: 20px 30px !important;
+  }
+}
+
+.article-cta.download-xls {
+  margin-left: 12px;
+}
+
+.article-cta .cta-arrow {
+  /* border-left: 4px solid #fff;
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 24px;
+    padding: 12px 14px; */
+}
+
+.download-btn-wrapper,
+.single-country .download-btn-wrapper {
+  border: 1px solid #000;
+  margin-top: 90px !important;
+  padding: 35px 117px !important;
+  text-align: left;
+}
+
+/* Infographic tool */
+
+.infographic-wrapper {
+  margin: 65px 0;
+}

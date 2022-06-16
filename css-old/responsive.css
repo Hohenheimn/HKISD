@@ -1,0 +1,20 @@
+.hero-image .container .header-content-wrapper .header-text-wrapper .hero-subtitle .languages-wrapper a {
+    margin: 0 25px 10px 0;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+    section#section-3.industry-section .container .article-wrapper .post-info .explore-cta-wrapper,
+    section#section-3.industry-section .container .article-wrapper .post-ind-info .explore-cta-wrapper {
+        position: absolute;
+    }
+    section#section-3.industry-section .container .article-wrapper .post-info .row {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    section .article-wrapper p#mobile-trigger {
+        padding: 0 40px 25px 0;
+    }
+}

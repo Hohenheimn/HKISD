@@ -1,0 +1,456 @@
+.hiden{
+    visibility: hidden;
+}
+.tbody{
+    color: black;
+    height: 65vh;
+}
+.teybol{
+    width: 118%;
+}
+.teybol2{
+    width: 100%;
+}
+
+.teybol2 td{
+    padding:12px 15px;
+    font-size: 90%;
+    text-transform: capitalize;
+}
+.teybol2 td{
+    font-size: 15px;
+}
+.teybol td,.teybol th, .teybol_stuff td, .teybol_stuff th{
+    padding:12px 15px;
+    font-size: 90%;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.teybol2 th{
+    position: sticky;
+    background-color: #dcedc8;
+    font-size: 15px;
+    top: 0;
+    padding: 10px;
+}
+.body{
+    font-family: sans-serif;
+}
+td{
+    border-bottom: 1px solid #a6a6a6;
+}
+#cname{
+    border: 0.5px solid #a6a6a6;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 100%;
+}
+.searchcontainer{
+    background-color:white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 0 15px 0px #6362624f;
+}
+.imgg{
+    float:right;
+    margin-top:5px ;
+}
+.proceedimg{
+    width: 50px;
+    height: 50px;
+}
+.searchinput{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    width: 90%;
+    background-color: transparent;
+
+}
+.summary{
+    height: 40vh;
+    border-top: 1px solid rgb(182, 182, 182);
+    border-left: 1px solid rgb(182, 182, 182);
+    border-right: 1px solid rgb(182, 182, 182);
+}
+
+.total{
+    height: 25vh;
+    color: #1b1b1b;
+    background-color: rgb(219, 217, 217);
+
+}
+#qty{
+    width: 95%;
+    border-radius: 5px;
+    height: 40%;
+    border: 0.5px solid #b8b8b8;
+    padding-left: 5px;
+    outline: none;
+    color: #1b1b1b;
+    float: right;
+}
+.lbl_lbl{
+    font-size: 14px;
+    margin-left: 18px;
+}
+.lbl_modal{
+    font-size: 18px;
+    color: #1b1b1b;
+    font-weight: bold;
+    margin-left: 10px;
+    width: 100%;
+}
+.lbl_modal1{
+    font-size: 18px;
+    color: #1b1b1b;
+    font-weight: bold;
+    width: 100%;
+}
+.peso{
+    width: 20%;
+    color: #686767;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 15px;
+}
+.value{
+    border: none;
+    width: 80%;
+    color: #686767;
+    font-weight: 600;
+    outline: none;
+    font-size: 30px;
+    float: right;
+}
+.val{
+    width: 90%;
+    float: right;
+}
+.pesoCart{
+    width: 10%;
+    font-size: 30px;
+}
+.teybola{
+    width: 100%;
+}
+.teybola th{
+    background-color: #dcedc8;
+    position: sticky;
+}
+.btn-danger{
+    margin-left: 5px;
+}
+#mymodal1{
+    font-family: sans-serif;
+}
+.teybol_stuff th {
+    font-size: 100%;
+    position: sticky;
+    top: 0;
+    color: #c5c5c5;
+    background-color: black;
+}
+.teybol_stuff td {
+    font-size: 100%;
+    text-transform: uppercase;
+}
+.teybol_stuff{
+    width: 100%;
+}
+#crud_table{
+    width: 100%;
+}
+#crud_table th {
+    font-size: 100%;
+    position: sticky;
+    top: 0;
+    color: #1b1b1b;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    background-color: rgb(219, 217, 217);
+
+}
+#crud_table td {
+    font-size: 100%;
+    text-transform: uppercase;
+    color: #1b1b1b;
+}
+.computed td{
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+}
+#add{
+    background-color: #90ee90;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.cancel{
+    background-color: #666666;
+    color:black;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.img{
+    height: 20px;
+    width: 20px;
+}
+.checkout{
+    border: none;
+    background-color: #dd0000;
+    color: rgb(194, 194, 194);
+    width: 90%;
+    height: 30px;
+    font-size: 90%;
+    border-radius: 4px;
+    float: right;
+    margin-right: 5%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.val{
+    font-size: 30px;
+}
+.amount{
+    margin-left: 5%;
+    font-weight: 700;
+    margin-top: -20px;
+    color: green;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.leybel{
+    margin-left: 5%;
+    margin-top: 20px;
+    font-weight: 700;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.mymodal2header{
+    background-color:#dd0000;
+    color: black;
+    font-family: sans-serif;
+  }
+  .mymodal2body{
+      color: #3c3c3c;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 120%;
+  }
+  .amount_tendered{
+      border: 0.5px solid #a6a6a6;
+      border-radius: 5px;
+      padding-left: 10px;
+      width: 100%;
+  }
+  .freebies{
+     width: 100px;
+     height: 40px;
+     text-align: center;
+     border: none;
+     background-color:#fde64b;
+     font-weight: bold;
+     border-radius: 5px;
+     border: 1px solid #fda50f;
+  }
+  .referral{
+    width: 120px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    border: none;
+    background-color:#fde64b;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #fda50f;
+ }
+  .savu{
+     border-radius: 5px;
+     border: none;
+     padding: 5px;
+     
+  }
+  #modal3{
+      background-color:#fde64b;
+  }
+  .checkout_txt{
+    border: 0.5px solid #a6a6a6;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 100%;
+  }
+  .search_freebies{
+      border: none;
+      background-color: transparent;
+      padding-left: 5px;
+      width: 92%;
+      outline: none;
+
+  }
+  .hayt{
+      height: 60vh;
+  }
+  .freebies_con{
+    
+      border-radius: 3px;
+      width: 90%;
+      margin-left: 20px;
+      margin-bottom: 10px;
+      box-shadow: 0 0 15px 0 rgb(175, 175, 175);
+
+  }
+  .picture{
+   
+      float: right;
+      margin-right: 10px;
+  }
+  .modal_picture{
+      margin-bottom: 15px;
+      
+  }
+  .secondpart{
+      margin-bottom: 40px;
+  }
+  .taas{
+      height: 50vh;
+      margin-bottom: 10px;
+  }
+  .close_referral{
+      background-color: rgb(252, 252, 64);
+      border: none;
+      width: 80px;
+      height: 40px;
+    border-radius: 5px;
+      margin-left: 10px;
+  }
+.pointofsale{
+    margin-bottom: 20px;
+}
+.imgg{
+    width: 20px;
+    height: 20px;
+
+}
+@media(max-width: 1000px){
+    .tbody{
+        height: 70vh;
+    }
+    .summary{
+        height: 51vh;
+    }
+    .total{
+      height: 100%;
+      padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 700px){
+    .teybola th{
+        background-color: #dcedc8;
+        position: sticky;
+    }
+    #add{
+        margin-top: 15px;
+    }
+    .freebies{
+        width: 80px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    .referral{
+        width: 80px;
+        height: 30px;
+        margin-bottom: 5px;
+        
+    }
+    .amount_tendered{
+        text-align: center;
+    }
+    .col-lg-3{
+        margin-bottom: 3px;
+        font-size: 110%;
+       
+    }
+    .peso{
+        font-size: 110%;
+        color: #1b1b1b;
+    }
+    .value{
+        font-size: 110%;
+        width: 70%;
+        color: #1b1b1b;
+    }
+    .col-lg-9{
+        color: #3c3c3c;
+        font-size: 20px;
+
+    }
+    #qty{
+        height: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .tbody{
+        height: 65vh;
+        font-size: 90%;
+        margin-bottom: 20px;
+    }
+    .teybol th {
+        font-size: 80%;
+    }
+    .tbody1{
+        display: flex;
+        overflow: auto;
+        font-size: 90%;
+        white-space: nowrap;
+        margin-bottom: 10px;
+        height: 100%;
+    }
+    .searchcontainer{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .searchinput{
+        margin-left: 10px;
+        border: none;
+        outline: none;
+        width: 85%;
+    
+    }
+    .pointofsale{
+        font-size: 110%;
+        margin-bottom: 20px;
+    }
+    .summary{
+        overflow: auto;
+        font-size: 90%;
+        height: 40vh;
+    }
+    .total{
+        margin-top: 20px;
+      height: 100%;
+      padding-bottom: 20px;
+    }
+    .checkout{
+        margin-right: 5%;
+        width: 90%;
+        color: rgb(196, 196, 196);
+        margin-top: 0;
+    }
+}

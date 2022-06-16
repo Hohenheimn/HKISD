@@ -1,0 +1,64 @@
+table{
+    width: 100%;
+}
+table th{
+    position: sticky;
+    background-color: #dcedc8;
+    color: #212121;
+    font-size: 14px;
+    top: 0;
+    text-transform: uppercase;
+    height: 60px;
+    font-weight: bold;
+}
+.table{
+    width: 100%;
+}
+.table th{
+    position: sticky;
+    background-color: #a6a6a64b;
+    color: #1b1b1b;
+    font-size: 11px;
+    top: 0;
+}
+th , td{
+    padding: 10px;
+}
+td{
+    font-size: 14px;
+    border-bottom:1px solid #bebdbd ;
+    color: #1b1b1b;
+    text-transform: capitalize;
+    height: 60px;
+}
+img{
+    height: 20px;
+    width: 20px;
+}
+.thayt{
+    height: 68vh;
+    box-shadow: 0 0 15px 0px #6362624f;
+}
+.btnn{
+    border: none;
+    padding: 8px 20px 8px 20px;
+    background-color: #32da6a;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
+.btnn:hover{
+    background-color: rgb(21, 165, 21) ;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    table{
+        width: 600px;
+    }
+    .btnn{
+        padding: 5px 10px 5px 10px;
+    }
+
+   
+}

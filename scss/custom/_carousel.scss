@@ -1,0 +1,519 @@
+// .thumb-carousel-section{
+//     &-wrapper{
+//         padding: 50px 0px;
+//         width: 100%;
+//         max-width: 1150px;
+//         margin: 0 auto;
+//     }
+//     .thumb-carousel-header{
+//         margin-bottom: 25px;
+//         .heading-logo{
+//             width: 250px;
+//             height: 35px;
+//         }
+//     }
+// }
+
+.section-carousel{
+    padding: 0 !important;
+    position: relative;
+    overflow: hidden;
+    box-shadow: none;
+    @media only screen and (max-width: 689px){
+        background: #fff;
+    }
+    &::after{
+        position: absolute;
+        width: 100%;
+        top: 421px;
+        left: 0;
+        display: block;
+        background: #fff;
+        height: 100vh;
+        content: '';
+        z-index: -1;
+        @media only screen and (max-width: 767px){
+            top: 380px;
+        }
+        @media only screen and (max-width: 689px){
+            top: 0;
+        }
+    }
+
+
+    .carousel-img{
+        margin-bottom: 30px !important;
+    }
+    .carousel-container{
+    width: 100%;
+    max-width: 1265px; 
+    }
+
+    .carousel-title{
+        font-size: 38px;
+        letter-spacing: -2px;
+        color: #666666;
+        font-family: 'open-sans', sans-serif !important;
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: 15px;
+        @media only screen and (max-width: 500px){
+            font-size: 30px;
+        }
+        @media only screen and (max-width: 767px){
+            font-size: 30px;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+        @media only screen and (min-width: 768px) and (max-width: 865px) {
+            font-size: 33px;
+        }
+        @media only screen and (min-width: 866px) and (max-width: 1158px) {
+            font-size: 30px !important;
+        }
+        @media only screen and (min-width: 1159px) and (max-width: 1280px) {
+            font-size: 34px !important;
+        }
+    }
+    .carousel-text{
+        font-size: 17px;
+        letter-spacing: -1px;
+        line-height: 25px;
+        color: #666666;
+        font-family: 'open-sans', sans-serif !important;
+        font-weight: 400;
+    }
+
+    .carousel-heading-logo{
+        width: 100%;
+        max-width: 252px;
+        height: auto;
+        margin-right: 40px;
+        @media only screen and (max-width: 767px){
+            margin: 0 auto 10px;
+            max-width:160px;
+        }
+        &-wrapper{
+            margin: 0 auto;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            @media only screen  and (max-width: 689px){
+                display: block;
+            }
+        }
+    }
+    .heading-title{
+        h1{
+            font-size: 18px;
+            letter-spacing: -1px;
+            color: #000000;
+            font-family: 'open-sans', sans-serif !important;
+            font-weight: 400;
+            text-align: left;
+        }
+    }
+
+    .slick-item-wrapper{
+    max-width: 375px !important;
+    padding: 0 !important;
+
+        
+    }
+    .slick-list{
+    background: #fff;
+    }
+    // .slick-item{
+    //     padding-top: 30px;
+    // }
+
+    .slick-item.slick-slide {
+        margin:30px 15px !important;
+    }
+    
+    .multiple-items .slick-list {
+        padding:0 15px !important;
+    }
+
+    .slick-prev, .slick-next {
+        top: 30%;
+    }
+    .slick{
+        &-prev{
+
+        }
+        &-next{
+
+        }
+    }
+    @media only screen and (max-width: 689px){
+        .slick-item-wrapper{
+            max-width: 100% !important;
+        }
+        .slick-next{
+            right: 2% !important;
+        }
+        .slick-prev{
+            left: 2% !important;
+        }
+        .slick-item.slick-slide {
+            margin:0px !important;
+        }
+        .multiple-items .slick-list {
+            padding:0 !important;
+            width: 80%;
+        }
+    }
+    
+    @media only screen and (max-width: 500px){
+        .slick-item-wrapper{
+            max-width: 90%;
+        }
+        .slick-next{
+            right: 2% !important;
+        }
+        .slick-prev{
+            left: 2% !important;
+        }
+        .slick-item.slick-slide {
+            margin:0px !important;
+        }
+        .multiple-items .slick-list {
+            padding:0 !important;
+            width: 70%;
+        }
+    }
+}
+
+.section-carousel-thumb{
+
+    .carousel-heading-logo{
+        width: 100%;
+        max-width: 252px;
+        height: auto;
+        margin-bottom: 0px;
+        &-wrapper{
+            margin: 0 auto;
+            width: 89%;
+            
+            @media only screen and (max-width: 1280px){
+                width: 86%; 
+            }
+            @media only screen and (max-width: 767px){
+                width: 86%;
+            }
+            @media only screen and (max-width: 689px){
+                width: 77%;
+            }
+        }
+    }
+    .carousel-container{
+        width: 100%;
+        max-width: 1265px; 
+    }
+    .content{
+        padding-top: 30px;
+        @media only screen and (max-width:690px){
+            padding-bottom: 0px;
+        }
+    }    
+    .carousel-article-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        @media only screen and (max-width: 500px){
+            flex-direction: column;
+        }
+        a{
+            display: block;
+            // width: 100%;
+            height: 100%;
+        }
+    }
+    .carousel-img-wrapper{
+        width: 100%;
+        height: 100%;
+        max-width: 110px;
+        max-height: 110px;
+        min-width: 110px;
+        min-height: 110px;
+        margin-right: 20px;
+        cursor: pointer;
+        position: relative;
+        @media only screen and (max-width: 767px){
+            width: 50%;
+            height:50% ;
+            margin-bottom: 10px;
+            display: none;
+        }
+        @media only screen and (max-width: 689px){
+            widows: 100%;
+            height:100%;
+            margin-bottom: 10px;
+            max-width: 100%;
+            max-height: 100%;
+            min-width: 100%;
+            min-height: 100%;
+            &::after{
+                content: "";
+                display: block;
+                padding-bottom: 100%;
+            }
+        }
+
+    }
+    .carousel-article-content{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .carousel-title{
+        color: red;
+        font-size: 17px;
+        letter-spacing: -1px;
+        line-height: 25px;
+        font-family: 'open-sans', sans-serif !important;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    .carousel-text{
+        color: #5f5e5e;
+        font-size: 17px;
+        letter-spacing: -1px;
+        line-height: 25px;
+        font-family: 'open-sans', sans-serif !important;
+        font-weight: 400;
+    }
+    .slick-track{
+        display: flex;
+        justify-content:center;
+    }
+    .slick-item{
+        margin: 0 7.5px;
+        &-wrapper{
+            height: 100%;
+            background: #fff;
+            filter: drop-shadow(0px -8px 5px rgba(0,0,0,0.1));
+        }
+    }
+    .slick-list{
+        padding-top: 25px;
+    }
+    .slick-prev:before {
+        color: #fff;
+      }
+    .slick-next:before {
+    color: #fff;
+    }
+    @media only screen and (max-width: 689px){
+        .slick-item-wrapper{
+            max-width: 90%;
+        }
+        .slick-next{
+            right: 2% !important;
+        }
+        .slick-prev{
+            left: 2% !important;
+        }
+    }
+    
+    @media only screen and (max-width: 500px){
+        .slick-item-wrapper{
+            max-width: 90%;
+        }
+        .slick-next{
+            right: 2% !important;
+        }
+        .slick-prev{
+            left: 2% !important;
+        }
+    }
+    .slick-next{
+        background: url(../images/ArrowRight-white.png) center center/contain no-repeat;
+    }
+    .slick-prev{
+        background: url(../images/ArrowLeft-white.png) center center/contain no-repeat;
+    }
+
+}
+
+.section-themed-carousel {
+
+    .carousel-article-content {
+        padding:20px;
+        text-align: left;
+    }
+
+    .item-carousel-fours, .item-carousel-fours-mobile {
+        @media only screen and (max-width:1280px) {
+            padding:0 40px;
+        }
+        
+        @media only screen and (max-width:1220px) {
+            padding:0 74px;
+        }
+        
+        @media only screen and (max-width:680px) {
+            padding:0 35px;
+            .carousel-title{
+                font-size: 14px;
+            }
+            .carousel-article-content{
+                padding: 15px;
+            }
+        }
+        
+    }
+
+    .carousel-article-wrapper {
+        .image-wrap {
+            img {
+                max-height: 120px;
+                object-fit: cover;
+                margin:0 auto;
+                @media only screen and (max-width: 767px){
+                    max-height: unset;
+                    min-height: 194px;
+                }
+            }
+        }
+
+        .carousel-title {
+            font-weight: 600;
+            min-height: 38px;
+
+            @media only screen and (max-width: 767px){
+                min-height: unset;
+            }
+        }
+
+        .carousel-text {
+            font-size:12px;
+            line-height:18px;            
+        }
+    }
+
+    .carousel-heading-logo{
+        width: 100%;
+        max-width: 252px;
+        height: auto;
+        margin-bottom: 0px;
+        &-wrapper{
+            margin: 0 auto;
+            width: 89%;
+            
+            @media only screen and (max-width: 1280px){
+                width: 86%; 
+            }
+            @media only screen and (max-width: 767px){
+                width: 86%;
+            }
+            @media only screen and (max-width: 689px){
+                width: 77%;
+            }
+        }
+    }
+    .carousel-container{
+        width: 100%;
+        max-width: 1168px; 
+    }
+    .content{
+        padding-top: 30px;
+        @media only screen and (max-width:690px){
+            padding-bottom: 0px;
+        }
+    }   
+
+    .slick-track{
+        display: flex;
+        justify-content:center;
+    }
+    .slick-item{
+        margin: 0 10px;
+        .slick-item-wrapper{
+            height: 100%;
+            background: #fff;
+            filter: drop-shadow(0px -8px 5px rgba(0,0,0,0.1));
+            padding:0;
+        }
+    }
+
+    .item-carousel-fours-mobile {
+        .slick-item-wrapper {
+            @media only screen and (max-width: 768px){
+                height: auto;
+                margin-bottom: 20px;
+            }
+        }
+
+        .carousel-article-content {
+            min-height: 60px;
+            display:flex; 
+            align-items: center;
+        }
+    }
+
+    
+
+    .slick-list{
+        padding-top: 25px;
+    }
+    .slick-prev:before {
+        color: #fff;
+    }
+    .slick-next:before {
+        color: #fff;
+    }
+    @media only screen and (max-width: 689px){
+        .slick-item-wrapper{
+            max-width: 90%;
+        }
+        .slick-next{
+            right: 2% !important;
+        }
+        .slick-prev{
+            left: 2% !important;
+        }
+    }
+    
+    @media only screen and (max-width: 500px){
+        .slick-item-wrapper{
+            max-width: 90%;
+        }
+        .slick-next{
+            right: 2% !important;
+        }
+        .slick-prev{
+            left: 2% !important;
+        }
+    }
+   
+    
+    .slick-next{
+        background: url(../images/ArrowRight-white.png) center center/contain no-repeat;
+        right:-65px;
+        
+    }
+    .slick-prev{
+        background: url(../images/ArrowLeft-white.png) center center/contain no-repeat;
+        left:-65px;
+    }
+
+    .slick-arrow {
+        top:55%;
+        display:none !important;
+
+        @media only screen and (max-width:1130px){
+            display:inline-block !important;
+
+            &.slick-prev {
+                left:1.5%;
+            }
+            &.slick-next {
+                right:1.5%;
+            }
+        }
+    }
+}

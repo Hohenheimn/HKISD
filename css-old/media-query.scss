@@ -1,0 +1,322 @@
+@media only screen and (max-width: 1366px) {
+
+}
+@media only screen and (max-width: 1200px) {
+	#content-page {
+		.article-wrapper {
+			.row {
+				&.download-btn-wrapper {
+					margin-top: 30px !important;
+				}
+			}
+		}
+	}
+	img.performanceGraph {
+		width: 48%;
+	}
+	#section-4 {
+		.colored-social-icons {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+			ul {
+				li {
+				    vertical-align: top;
+				    width: 19%;
+				    margin-bottom: 15px;
+	    			a {
+					    p {
+							vertical-align: top !important;
+	    					padding: 5px 0 0 0 !important;
+					    }
+					}
+				}
+			}
+		}
+	}
+	#content-page {
+		section {
+			.article-wrapper {
+				.row {
+				    margin-top: 0px !important;
+				}
+			}
+		}
+		.hero-image {
+			.hero-subtitle {
+	    		padding: 0 0 25px !important;
+	    	}
+	    }
+	}
+	.hero-image .wrap-2 {
+		padding-bottom: 0 !important;
+	}
+}
+@media only screen and (min-width: 992px) {
+    #content-page .article-wrapper .row .text-wrap .col-md-6 {
+        padding:0 20px !important;
+    }
+}
+@media only screen and (max-width: 992px) {
+#content-page {
+	.hero-image {
+		margin-bottom: 30px
+	}
+	.article-wrapper {
+	    .text-left {
+            padding-top: 15px !important;
+            padding-bottom: 15px; 
+        }
+	}
+	.right-image {
+		.text-wrap {
+			padding-bottom: 15px !important;
+			padding-right: 0px !important;
+		}
+	}
+}
+	.bounce-up {
+		.subject {
+		    opacity: 1;
+		}
+	}
+	
+	img.countryThumb, img.performanceGraph {
+		width: 100%;
+	}
+
+	#content-page {
+		.hero-image {
+			.background {
+				video {
+				    right: -50% !important;
+				    left: -50% !important;
+				    top: 0 !important;
+				}
+			}
+			.hero-title {
+				h1 {
+				    font-size: 47px;
+	    			line-height: 48px;
+	    		}
+			}
+		}
+		section {
+		    // padding-top: 0 ;
+		    // padding-bottom: 0 !important;
+		}
+		.article-wrapper {
+			.left-image {
+				.text-wrap {
+				    padding: 15px 0 0 !important;
+				}
+			}
+			.row {
+				margin-right: 0 !important;
+				margin-left: 0 !important;
+				margin-top: 50px !important;
+				.col-md-6 {
+				    float: none; 
+				    width: 100%;
+				    padding-left: 0 !important;
+				    img {
+				    	width: 100%;
+				    }
+				}
+				.col-md-5, .col-md-7 {
+					padding-left: 0;
+					padding-right: 0;
+					img {
+						width: 100%;
+					}
+				}
+				.col-md-12 {
+					width: 100%;
+				}
+			}
+		}
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	#content-page {
+		.hero-image {
+		    height: auto !important;
+		    .wrap-2 {
+				
+			}
+			.hero-title {
+				h1 {
+				    font-size: 50px !important;
+				    line-height: 55px !important;
+				}
+			}
+			.hero-subtitle p {
+				font-size: 16px !important;
+			    line-height: 25px !important;
+			}
+		}
+		section {
+			.article-wrapper {
+				// .row {
+				//     margin-top: 20px !important;
+				// }
+				.text-wrap {
+					.content-title {
+					    font-size: 20px !important;
+					    padding-bottom: 15px !important;
+					    line-height: 25px !important;
+					}
+					p {
+					    font-size: 14px !important;
+					    line-height: 25px !important;
+					    padding-bottom: 0px !important;
+					}
+					h1 {
+						font-size: 20px !important;
+					}
+					h2 {
+						font-size: 24px !important;
+					}
+					ul {
+						li {
+						    padding-left: 10px !important;
+						    font-size: 14px !important;
+						}
+					}
+				}
+				.index-performance {
+					.text-wrap {
+						h2 {
+							font-size: 24px !important;
+						}
+						h3 {
+							font-size: 16px !important;
+							padding: 5px 0 !important;
+						}
+					}
+				}
+			}
+			.download-btn-wrapper {
+				padding: 20px 30px !important;
+				h1 {
+					font-size: 20px !important;
+				}
+				p {
+					font-size: 14px !important;
+				}
+				.btn {
+					font-size: 16px !important;
+				}
+			}
+		}
+	}
+
+	.bounce-up .subject {
+		opacity: 1;
+	}
+
+}
+
+@media only screen and (max-width: 690px) {
+	#heroindustry {
+		.telstra-logo-article {
+			margin-top: 40px !important;
+			p {
+				text-align: right;
+			}
+			img {
+				float: right;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 575px) {
+	
+}
+@media only screen and (max-width: 480px) {
+	#content-page {
+		section {
+			.article-wrapper {
+				.text-wrap {
+					h2 {
+						font-size: 20px !important;
+					}
+				}
+			}
+		}
+		.hero-image {
+			.hero-title {
+				h1 {
+				    font-size: 30px !important;
+				    line-height: 35px !important;
+				}
+			}
+		}
+	}
+	#heroindustry {
+		.telstra-logo-article {
+			width: 100% !important;
+			margin-top: -10px !important;
+			p {
+				text-align: right;
+			}
+			img {
+				float: right;
+			}
+		}
+	}					
+}
+@media only screen and (max-width: 375px) {
+	#heroindustry {
+		.telstra-logo-article {
+			width: 100% !important;
+			margin-top: -10px !important;
+			p {
+				text-align: right;
+			}
+			img {
+				float: right;
+				max-width: 130px !important;
+			}
+		}
+	}
+	#content-page {
+		.hero-image {
+			.hero-title {
+				h1 {
+				    font-size: 27px !important;
+				}
+			}
+			.hero-subtitle {
+				p {
+					font-size: 14px !important;
+					line-height: 22px !important;
+				}
+			}
+		}
+		section {
+			.article-wrapper {
+				.text-wrap {
+					.content-title {
+						font-size: 18px !important;
+						line-height: 22px !important;
+					}
+					h1, h2 {
+						font-size: 18px !important;
+					}
+				}
+				.index-performance {
+					.text-wrap {
+						h2 {
+						    font-size: 18px !important;
+						    line-height: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 320px) {
+	
+}

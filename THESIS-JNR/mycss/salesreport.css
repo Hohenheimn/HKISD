@@ -1,0 +1,124 @@
+.teybol{
+    width: 98%;
+}
+
+.teybol th{
+    padding: 10px;
+    background-color:#dcedc8;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    border: 1px solid #dcedc8;
+  
+}
+.tbody1{
+    height: 65vh;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+.btn{
+    margin-top: 15px;
+}
+.h4{
+    display: none;
+}
+.address{
+    display: none;
+}
+.datee{
+    display: none;
+}
+.lbl{
+    display: none;
+}
+h5{
+    display: none;
+}
+#number-sales{
+    color: #dd0000;
+}
+#revenue{
+    color: #dd0000;
+}
+.datebox{
+    width: 100%;
+    height: 40px;
+    color: #666666;
+    border: 1px solid #a6a6a6;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+}
+.filter{
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color:rgb(241, 55, 55);
+    box-shadow: 0 0 15px 0px #6362624f;
+    font-weight: bold;
+    border-radius: 5px;
+    float: right;
+    margin-top: 32px;
+    color: #1b1b1b;
+}
+.teybol .td1{
+    padding: 10px;
+    text-transform: uppercase;
+    color: #474545;
+    font-weight: bold;
+    border-left: 1px solid rgb(177, 177, 177);
+   
+}
+.teybol .tr{
+    border-bottom:  1px solid rgb(177, 177, 177);
+}
+.teybol .td3{
+    padding: 5px;
+    color: #1b1b1b;
+}
+.teybol .td6{
+    border-left: 1px solid rgb(177, 177, 177);
+}
+.teybol .td7{
+    border-right: 1px solid rgb(177, 177, 177);
+}
+.teybol .td4{
+    padding: 5px;
+    color: #1b1b1b;
+    border-left: 1px solid rgb(177, 177, 177);
+}
+.img{
+    display: none;
+}
+.teybol .td5{
+    padding: 5px;
+    color: rgb(15, 15, 15);
+    border-right: 1px solid rgb(177, 177, 177);
+}
+.teybol .td2{
+    padding: 10px;
+    
+    text-transform: uppercase;
+    color: #474545;
+    font-weight: bold;
+    border-right: 1px solid rgb(177, 177, 177);
+}
+.teybol .td{
+    padding: 10px;
+    text-transform: uppercase;
+    color: #474545;
+    font-weight: bold;
+   
+}
+.border_bot{
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+.div{
+    border: 1px solid rgb(15, 15, 15);;
+}
+@media(max-width: 500px){
+    .teybol{
+        width: 500px;
+    }
+}

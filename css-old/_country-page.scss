@@ -1,0 +1,56 @@
+#content-page.country-page {
+    .article-wrapper {
+        .row{
+            margin-left: 0;
+            margin-rightz: 0;
+        }
+        .text-wrap {
+            ul {
+                text-align: left;
+                padding-left: 20px;
+                li{
+                	padding-left: 30px;
+                	color: #010000;
+                }
+            }
+        }
+        .index-performance {
+        	[class*='col-']:nth-child(2){
+        		padding: 10px 0 0 30px;
+        	}
+            .text-wrap {
+                h2 {
+                    color: #4e4c4c;
+                    font-family: $akkuratregular;
+                    font-size: 37.48px;
+                    text-transform: capitalize;
+                    span {
+                        color: #003399;
+                    }
+                }
+                h3 {
+                    text-align: left;
+                    text-transform: uppercase;
+                    font-family: $akkuratbold;
+                  	font-size: 19px;
+                  	line-height: 23.64px;
+                    padding: 20px 0;
+                }
+            }
+        }
+        .download-btn-wrapper{
+        	padding: 40px 30px 35px;
+        	border: 1px solid #707070;
+        	margin: 30px 0px 0px 0px;
+        	h2{
+        		text-align: center;
+        	}
+
+        }
+    }
+    section {
+        &#section-4 {
+            margin-top: 0px;
+        }
+    }
+}

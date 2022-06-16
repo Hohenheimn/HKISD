@@ -1,0 +1,311 @@
+.form{
+    margin-top: 70px;
+     height: 100%;
+     width: 100%;
+     background-color: whitesmoke;
+     box-shadow: 0 0 15px 0px #6362624f;
+     margin-bottom: 50px;
+     padding-bottom: 20px;
+ }
+.teybol{
+    overflow: auto;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 10px;
+}
+table th, td {
+    padding: 10px;
+    border: 1px solid #c4c1c1;
+    color: #1b1b1b;
+}
+.lbl{
+    color: #1b1b1b;
+}
+ .head{
+     width: 100%;
+     height: 100%;
+     background-color: rgb(235, 177, 177);
+     padding-bottom: 10px;
+    
+ }
+ .img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    float: right;
+}
+.itemnem{
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 17px;
+   
+
+}
+.datee{
+    color: #dd0000;
+    font-weight: 500;
+}
+.lbll{
+    color: #505050;
+}
+.value{
+    color: #1b1b1b;
+    font-weight: 500;
+   
+}
+.add{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.hed{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 600;
+    color: #1b1b1b;
+    text-transform: capitalize;
+}
+.jnr{
+    color: #dd0000;
+}
+
+.contact{
+    color: #1b1b1b;
+    font-weight: 550;
+}
+.feee{
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 17px;
+   
+}
+.ref{
+    color: #1b1b1b;
+    font-weight: 600;
+    font-size: 17px;
+   
+  
+}
+
+.firstlayer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.span2{
+    color: blue;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.col-lg-3{
+    height: 50px;
+    font-size: 15px;
+    color: #1b1b1b;
+    padding-top: 10px;
+}
+.col-lg-5{
+    height: 50px;
+    font-size: 15px;
+    color: #1b1b1b;
+    padding-top: 10px;
+}
+.span{
+    margin-left: 10px;
+}
+ 
+
+ .picture{
+    height: 300px;
+   
+ }
+ .cus_info{
+     margin-top: 5px;
+     margin-bottom: 20px;
+     border-bottom: 1px solid #c4c1c1;
+     padding-bottom: 10px;
+ }
+ .checkbox{
+     margin-right: 20px;
+ }
+ .income{
+   
+     margin-bottom: 20px;
+     border-bottom: 1px solid #c4c1c1;
+     padding-bottom: 10px;
+ }
+ .input{
+     width: 100%;
+     border: 1px solid rgb(202, 201, 201);
+     padding-left: 10px;
+     border-radius: 5px;
+ }
+ .rows{
+     margin-left: 70px;
+     height: 250px;
+     width: 270px;
+    margin-bottom: 40px;
+ }
+ .rowss{
+    margin-left: 30px;
+    height: 250px;
+    width: 270px;
+   
+}
+.head2{
+    display: none;
+}
+#hays{
+    display: none;
+}
+.agreement{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #a7a5a5;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #1b1b1b;
+    font-weight: 500;
+}
+.agreement1{
+    display: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #a7a5a5;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #1b1b1b;
+    font-weight: 500;
+}
+ img{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    float: right;
+}
+ header{
+     margin-top: 20px;
+     text-align: left;
+     font-size: larger;
+     color: #1b1b1b;
+     font-weight: bold;
+ }
+
+ .banks{
+     margin-top: 10px;
+ }
+ @media(max-width: 1000px){
+    .rows{
+        margin-left: 30px;
+        height: 150px;
+        width: 150px;
+       margin-bottom: 20px;
+    }
+    .rowss{
+       margin-left: 30px;
+       height: 150px;
+       width: 150px;
+   }
+    img{
+       width: 100%;
+       height: 100%;
+       margin-top: 0px;
+       float: right;
+    }
+   .agreement{
+       margin-top: 10px;
+   }
+ }
+
+@media(max-width: 600px){
+    .firstlayer{
+        margin-bottom: 0;
+       
+    }
+    .add{
+        font-size: 12px;
+    }
+    .overflow{
+        overflow: auto;
+    }
+    .img{
+        width: 60px;
+        height: 60px;
+        margin-top: 20px;
+    }
+    h4{
+        font-size: 10%;
+    }
+    table{
+        width: 600px;
+    }
+    .agreement{
+        margin-top: 95vh;
+    }
+    .banks{
+        margin-bottom: 50px;
+    }
+    .rows{
+        width: 300px;
+        height: 300px;
+    }
+    .rowss{
+        width: 300px;
+        height: 300px;
+    }
+    img{
+        width: 100%;
+        height: 70%;
+        margin-top: 10px;
+        float: right;
+        text-align: center;
+    }
+    header{
+        
+       font-size: 90%;
+       
+    }
+    h5{
+        font-size: 90%;
+    }
+    .banks{
+        margin-bottom: 10px;
+    }
+    .item_info{
+        height: 40px;
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 0px;
+        font-size: 15px;
+        color: #1b1b1b;
+     }
+     .item_infos{
+        height: 40px;
+        width: 400px;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 15px;
+        color: #1b1b1b;
+        font-weight: bold;
+     }
+    p{
+       font-size: 90%;
+        top: 0;
+        color: #1b1b1b;
+    }
+    .form{
+        margin-top: 0px;
+         height: 100%;
+         width: 100%;
+         background-color: whitesmoke;
+         box-shadow: 0 0 15px 0px #6362624f;
+         margin-bottom: 50px;
+         padding-bottom: 20px;
+     }
+}
+ 

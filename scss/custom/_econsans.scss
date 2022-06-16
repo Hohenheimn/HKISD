@@ -1,0 +1,12 @@
+@include fontface('econ-sans', '../fonts/econsans/EconSansOS-Regular');
+@include fontface('econ-sans', '../fonts/econsans/EconSansOS-Light', 300);
+@include fontface('econ-sans', '../fonts/econsans/EconSansOS-Medium', 600);
+@include fontface('econ-sans', '../fonts/econsans/EconSansOS-Bold', 700);
+@include fontface('econ-sans', '../fonts/econsans/EconSansOS-ExtraBold', 800);
+
+// .font-a{
+//     font-family: 'econ-sans', sans-serif;
+// }
+.econ-sans{
+    font-family: 'econ-sans', sans-serif;
+}

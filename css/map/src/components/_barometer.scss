@@ -1,0 +1,107 @@
+.sk-barometer { 
+
+	color: $blue--dark;
+	margin-top: 40px;
+
+	h2 {
+		font-family: 'Telstra Akkurat Light';
+		font-size: 1.8rem;
+		font-weight: bold;
+		padding: 0;
+	}
+
+	.sk-barometer-chart {
+		position: relative;
+		width: 95%;
+		margin:auto;
+		padding: 0;
+
+		&:before {
+			background: $grey;
+			content: '';
+			display: block;
+			height: 1px;
+			left: 2%;
+			position: absolute;
+			top: 28%;
+			width: 96%;
+			z-index: 0;
+			@include media--over--lg {
+				top: 35%;
+			}
+		}
+	}
+	.sk-barometer-chart li {
+		font-size: 1.2rem;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+
+		span {
+			display: block;
+			height: 40px;
+			margin-bottom: 5px;
+			margin: auto;
+			position: relative;
+			transition: all $base-movement-transition;;
+			width: 40px;
+			z-index: 4;
+		}
+
+		em {
+			background: $orange;
+			border-radius: 50%;
+			display: block;
+			height: 100%;
+			left: 50%;
+			position: absolute;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			transition: all $base-movement-transition;;
+			width: 100%;
+			z-index: 9;
+		}
+
+		i {
+			background: $orange;
+			color: $white;
+			display: block;
+			font-style: normal;
+			font-weight: bold;
+			left: 50%;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			transition: all $base-movement-transition;;
+		}
+
+		&:hover {
+			em {
+				height: 100%!important;
+				width: 100%!important;
+			}
+			i {
+				opacity: 1;
+			}
+		}
+
+	}
+
+
+	.slick-arrow {
+		cursor: pointer;
+		font-family: 'Telstra Akkurat Light';
+		font-size: 40px;
+		position: absolute;
+		top: 0;
+		line-height: 40px;
+		&--prev {
+			left: -20px;
+		}
+		&--next {
+			right: -20px;
+		}
+	}
+}

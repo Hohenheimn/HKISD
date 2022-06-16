@@ -1,0 +1,159 @@
+*{
+    box-sizing:border-box;
+}
+.tebol{
+    width: 100%;
+    border-collapse:collapse;
+  
+}
+.tebol1{
+      width: 100%;
+    border-collapse:collapse;
+}
+.tebol1 td,.tebol1 th{
+    padding:12px 15px;
+    font-size: 96%;
+}
+.tebol td,.tebol th{
+    padding:12px 15px;
+    font-size: 96%;
+}
+.imgg{
+    width: 20px;
+    height: 20px;
+}
+.imgg1{
+    width: 20px;
+    height: 20px;
+}
+.b-right{
+    border-right: 1px solid #C5D1D8;
+    padding-right: 10px;
+    font-weight:800;
+    }
+                                  
+.lbl{
+font-size:95%;
+color:#a6a6a6;
+}
+.neym{
+margin-bottom:5px;
+color: #474747;
+}
+
+.btnn{
+    background-color: transparent;
+    border:none;
+}
+.btnn:hover{
+    cursor: pointer;
+    border-bottom: none;
+}
+.searchbar{
+    border: 0.1px solid #c8c8c8;
+    border-radius: 1px;
+    padding: 5px;
+}
+.textbox{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ababab;
+    border-radius: 10px;
+    color: #1b1b1b;
+    outline:none;
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 15px;
+}
+.readonly{
+    background-color: rgb(218, 218, 218);
+    border: none;
+    font-weight: bold;
+    color: #1b1b1b;
+}
+.itempic{
+    height: 150px;
+    width: 150px;
+}
+.itemPicture{
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media(max-width: 700px){
+    .page-title1{
+        font-size: 20px;
+    }
+    .page-title{
+        font-size: 15px;
+    }
+    .textbox{
+        width: 100%;
+        height: 30px;
+        border: 1px solid #ababab;
+        border-radius: 10px;
+        color: #777777;
+        outline:none;
+        text-align: left;
+        padding-top: 3px;
+        padding-left: 15px ;
+    }
+    .input{
+        font-size: 90%;
+    }
+   .searchbar{
+       width:150px;
+
+   }
+   .btnn{
+       width: 15px;
+   }
+    .neym{
+        font-size: 90%;
+        margin-bottom:10px;
+    }
+    .tebol thead{
+        display:none;
+    }
+    td{
+        height: 50px;
+    }
+    .tebol .tebol tbody, .tebol tr, .tebol .text-uppercase{
+        display:block;
+        width: 100%;
+    }
+    .tebol tr{
+        margin-bottom:15px;
+        border:0.1px solid #c8c8c8;
+    }
+    .tebol .text-uppercase{
+        text-align:right;
+        padding-left:50%;
+        text-align:right;
+        position:relative;
+        font-size:12px;
+    }
+    .tebol .text-uppercase::before{
+        content: attr(data-label);
+        position: absolute;
+        left:0;
+        width:50%;
+        padding-left:15px;
+        font-size:13px;
+        font-weight: 150%;
+        text-align:left;
+    }
+   .imgg{
+       width: 15px;
+       height: 15px;
+   }
+   
+   .imgg1{
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+    .card1{
+        height: 200%;
+    }
+}

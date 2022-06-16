@@ -1,0 +1,44 @@
+.hero-image .container .header-content-wrapper .header-text-wrapper .hero-subtitle .languages-wrapper a {
+    margin: 0 25px 10px 0;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+    section#section-3.industry-section .container .article-wrapper .post-info .explore-cta-wrapper,
+    section#section-3.industry-section .container .article-wrapper .post-ind-info .explore-cta-wrapper {
+        position: absolute;
+    }
+    section#section-3.industry-section .container .article-wrapper .post-info .row {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    section .article-wrapper p#mobile-trigger {
+        padding: 0 40px 25px 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .sponsor-wrap .css-1jx435z-AltAdvertisement a img{width: 90% !important; height: 90% !important; object-fit: contain !important;}
+}
+
+@media screen and (max-width: 1024px) {
+    .hk-nav-wrapper .hk-nav-links{height: auto;}
+    .hk-nav-wrapper .hk-nav-links{display: flex; flex-wrap: wrap; padding-top: 60px; background-color: white;}
+    .hk-nav-wrapper .hk-nav-links ul{width: 100% !important; height: auto !important; min-height: unset !important; margin-top: 0 !important; margin-bottom: 0 !important;}
+    .hk-nav-wrapper .hk-nav-links ul li{height: auto !important; padding: 0 !important;}
+    .hk-nav-wrapper .hk-nav-links ul li a{margin: 10px}
+    .hk-nav-wrapper .hk-nav-links ul li p{margin: 10px; margin-bottom: 0; margin-top: 0px;}
+    .hk-nav-wrapper .hk-nav-links ul li a p:nth-child(1){font-size: 20px !important;}
+    .hk-nav-wrapper .hk-nav-links ul li a p:nth-child(2){font-size: 16px !important;}
+    .hk-nav-wrapper .hk-nav-links ul li:nth-child(2) p{margin-left: 20px !important;}
+    
+    .hk-nav-wrapper .hk-nav-links ul li .empty{display: none !important;}
+}
+@media screen and (max-width: 480px) {
+    .hk-nav-wrapper .hk-nav-links ul li a p:nth-child(1){font-size: 18px !important;}
+    .hk-nav-wrapper .hk-nav-links ul li a p:nth-child(2){font-size: 13px !important;}
+    .hk-nav-wrapper .hk-nav-links ul li:nth-child(2) p{margin-left: 10px !important;}
+    .hk-nav-wrapper .hk-nav-links ul li p{margin: 0px; margin-bottom: 0; margin-top: 0px;}
+}

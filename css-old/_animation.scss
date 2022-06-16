@@ -1,0 +1,62 @@
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+/*animation element*/
+
+.animation-element {
+  
+  // margin: 0% 1.33% 2.66% 1.33%;
+ 
+}
+/*bounce up animation for the subject*/
+
+.bounce-up .subject {
+  opacity: 0;
+  -moz-transition: all 700ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  -webkit-transition: all 700ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  -o-transition: all 700ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 700ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  -moz-transform: translate3d(0px, 40px, 0px);
+  -webkit-transform: translate3d(0px, 40px, 0px);
+  -o-transform: translate(0px, 40px);
+  -ms-transform: translate(0px, 40px);
+  transform: translate3d(0px, 40px, 0px);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.bounce-up.in-view .subject {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+.subject.delay-1{
+  -webkit-transition-delay: .1s; /* Safari */
+  -moz-transition-delay: .1s;
+  -o-transition-delay: .1s;
+  transition-delay: .1s;
+}
+.subject.delay-2{
+  -webkit-transition-delay: .2s; /* Safari */
+  -moz-transition-delay: .2s;
+  -o-transition-delay: .2s;
+  transition-delay: .2s;
+}
+@media only screen and (max-width: 690px) {
+  .bounce-up .subject {
+    opacity: 1;
+
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+  }
+}

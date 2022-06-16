@@ -1,0 +1,50 @@
+/* links */
+
+a {
+    color: #464646;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: 0;
+    color: initial;
+}
+
+
+/* forms */
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="submit"], textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+
+/* images */
+
+img {
+    display: block;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+
+}
+h1 {
+    
+}
+
+h2 {
+  
+}
+
+h3 {
+    
+}
+
+p {
+    margin: 0;
+    font-family: $akkuratregular;
+    color: #010000;
+}

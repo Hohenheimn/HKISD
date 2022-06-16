@@ -1,0 +1,20 @@
+.featured-video-section {
+  width: 100%;
+  margin: 0 auto; }
+  .featured-video-section-wrapper {
+    padding: 0px 275px; }
+  .featured-video-section .featured-video-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .featured-video-section .heading-logo {
+    width: 235px;
+    height: 55px;
+    background: #007f9c;
+    margin-bottom: 45px; }

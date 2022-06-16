@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  outline: none;
+  font-family: 'Telstra Akkurat';
+}
+
+* {
+  box-sizing: inherit;
+  flex-shrink: 1;
+
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: $black;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: $blue--dark;
+  margin: 0 0 10px;
+  font-size: 3rem;
+  font-family: 'Telstra Akkurat';
+  text-align: center;
+
+  @include media--over--md {
+    text-align: left;
+  }
+
+  + p {
+    color: $blue--dark;
+    margin-top: .5em;
+    text-align: center;
+
+    @include media--over--md {
+      text-align: left;
+    }
+  }
+}

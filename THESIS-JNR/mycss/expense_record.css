@@ -1,0 +1,43 @@
+.deyt{
+    border: 1px solid #c0bebe;
+    color: #666666;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 50px;
+    margin-top: 15px;
+ 
+ }
+ .result{
+     font-size: 120%;
+     font-weight: bold;
+     padding: 3px;
+     margin-top: 15px;
+     color: #1b1b1b;
+ }
+ #costt{
+    font-size: 100%;
+    font-weight: bold;
+    padding: 3px;
+    color: #dd0000;
+ }
+ .buton{
+     border: none;
+     background-color: rgb(89, 218, 89);
+     border-radius: 5px;
+     width: 100px;
+     height: 50px;
+     font-weight: bold;
+     margin-top: 15px;
+     box-shadow: 0 0 15px 0 rgba(168, 168, 168, 0.658);
+     text-transform: uppercase;
+ }
+ @media(max-width: 800px){
+     .buton{
+         float: right;
+     }
+ }
+ 
+ 

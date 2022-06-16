@@ -1,0 +1,345 @@
+table{
+    width: 100%;
+}
+.teybol th{
+   position: sticky;
+    background-color: #dcedc8;
+    color: #212121;
+    font-size: 12px;
+    top: 0;
+    text-transform: uppercase;
+    height: 60px;
+    font-weight: bold;
+}
+.table{
+    width: 100%;
+}
+.overflow{
+    overflow: hidden;
+    height: 75vh;
+}
+.table th{
+    position: sticky;
+    background-color: #a6a6a64b;
+    color: #212121;
+    font-size: 11px;
+    top: 0;
+    text-transform: uppercase;
+}
+.thayt{
+    height: 65vh;
+    box-shadow: 0 0 15px 0px #6362624f;
+}
+.card{
+    margin-top: 15px;
+}
+th , td{
+    padding: 10px;
+}
+.teybol td{
+    font-size: 14px;
+    border-bottom:1px solid #bebdbd ;
+    color: #1b1b1b;
+    text-transform: capitalize;
+    height: 60px;
+}
+.searchcontainer{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-shadow: 0 0 15px 0px #6362624f;
+    background-color: white;
+    border-radius: 3px;
+}
+.butt{
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #666666;
+}
+.search_container{
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0 0 15px 0px #6362624f;
+    background-color: white;
+    border-radius: 3px;
+}
+label{
+    margin-top: 20px;
+}
+
+.searchinput{
+    background-color: transparent;
+    width: 80%;
+    outline: none;
+    border: none;
+    padding-left: 5px;
+}
+.searcchinput{
+    background-color: transparent;
+    width: 80%;
+    outline: none;
+    border: none;
+    padding-left: 5px;
+   
+}
+
+
+.add{
+    margin-top: 10px;
+    border: none;
+    color: black;
+    background-color: #e44444;
+    padding:3px ;
+    border-radius: 3px; 
+    width: 120px;
+    color: white;
+    text-align: center;   
+    box-shadow: 0 0 15px 0px #6362624f;
+
+}
+.add1{
+    margin-left: 10px;
+    border: none;
+    color: black;
+    background-color: #2f9e25;
+    padding:3px ;
+    border-radius: 3px; 
+    width: 120px;
+    color: white;
+    text-align: center; 
+    box-shadow: 0 0 15px 0px #6362624f;  
+}
+
+.arrange{
+    margin-top: 20px;
+}
+
+.dropdown{
+    display:inline-block;
+    position:relative;
+    width: 100%;
+  }
+
+  .dropdown .button{
+    box-shadow: 0 0 15px 0px #8180804f;
+    border:none;
+    padding:8px 16px;
+    background-color: rgb(233, 233, 93);
+    color:#1b1b1b;
+    transition:.3s;
+    cursor:pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  .imgg{
+      width: 20px;
+      height: 20px;
+      float: right;
+      margin-top: 4px;
+  }
+  .imggg{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 4px;
+    
+    }
+  
+  .dropdown:hover .button{
+    background-color:#ec2525;
+    color: white;
+  }
+  
+  .dropdown .div{
+    background-color:#fff;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    z-index:1;
+    visibility:hidden;
+    position:absolute;
+    min-width:100%;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .dropdown:hover .div{
+    visibility:visible;
+    opacity:1;
+  }
+  
+  .dropdown .div .a{
+    display:block;
+    text-decoration:none;
+    padding:8px;
+    color:#000;
+    transition:.1s;
+    white-space:nowrap;
+  }
+  
+  .dropdown .div .a:hover{
+    background-color:#ec2525;
+    color:#fff;
+  }
+
+header{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: black;
+    font-size: 150%;
+    border-bottom: 0.5px solid #a6a6a6;
+}
+.form_text{
+    width: 80%;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid  rgb(209, 208, 208);
+    height: 35px;
+    padding-left: 10px;
+    color: #666666;
+    float: right;
+}
+.form_text2{
+    width: 70%;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid  rgb(209, 208, 208);
+    height: 100%;
+    padding-left: 10px;
+    color: #666666;
+    float: left;
+}
+#ref_no{
+    width: 30%;
+}
+.btn-success{
+    margin-top: 40px;
+}
+.form_text1{
+    width: 100%;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid  rgb(209, 208, 208);
+    height: 35px;
+    padding-left: 10px;
+    color: #666666;
+    float: right;
+}
+.serthayt{
+    height: 350px;
+    overflow-y: auto;
+    margin-bottom: 500px;
+    width: 410px;
+}
+.serthaytt{
+    height: 150px;
+    overflow-y: auto;
+    margin-bottom: 500px;
+    width: 100%;
+}
+.active1{
+    color: #1b1b1b;
+    background: #666666;
+}
+label{
+    font-size: 90%;
+    color: #666666;
+    font-weight: bold;
+}
+.ull {
+    float: left;
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+    width: 390px;
+    background-color: white;
+}
+.lii{
+    padding: 15px 0 15px 10px;
+    color: #c7c6c6;
+    border-top: 1px solid #a7a7a7;
+    background-color: #444444;
+}
+
+.lii:hover {
+    color: #1b1b1b;
+    background: #666666;
+    cursor: pointer;
+    
+}
+.ulll {
+    float: left;
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: white;
+}
+.liii{
+    padding: 5px 0 5px 10px;
+    color: #c7c6c6;
+    border-top: 1px solid #a7a7a7;
+    background-color: #444444;
+}
+
+.liii:hover {
+    color: #1b1b1b;
+    background: #666666;
+    cursor: pointer;
+    
+}
+.bod{
+    height: 250px;
+    background-color: white;
+    margin-top: 15px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.tebo{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+    #ref_no{
+        width: 30%;
+        font-size: 90%;
+    }
+    .add1{
+        float: right;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .button{
+        margin-bottom: 15px;
+    }
+    .searchcontainer{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+        box-shadow: 0 0 15px 0px #6362624f;
+        background-color: white;
+        border-radius: 3px;
+    }
+    .searchinput{
+        background-color: transparent;
+        width: 80%;
+        outline: none;
+        border: none;
+        padding-left: 5px;
+    }
+   
+    table{
+        width: 800px;
+    }
+    .teboo{
+        width: 1200px;
+    }
+    .tebo{
+        width: 100%;
+    }
+}

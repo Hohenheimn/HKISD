@@ -1,0 +1,449 @@
+.tab-city {
+  background: url(../images/bg-city.png) 50% 50%/contain no-repeat fixed;
+  @include media--over--md {
+    background: url(../images/bg-city.png) 50% 50%/contain no-repeat;
+  }
+}
+
+.sk-rankings-chart {
+  color: $blue--dark;
+  font-size: 1.2rem;
+  margin: 60px auto 0;
+  position: relative;
+
+  @include media--over--md {
+    width: calc(93%);
+  } 
+
+  &--right {
+    width: 100%;
+    max-width: 500px;
+    padding: 0 50px;
+
+    @include media--over--md {
+      margin: 100px 40px 0 0;
+      max-width: inherit;
+      float: right;
+      width: calc(100% - 300px);
+    } 
+
+    .sk-rankings-chart__label {
+      &:nth-child(1) {
+        left: 25%;
+      }
+      &:nth-child(2) {
+        right: 200px;
+      }
+      &:nth-child(3) {
+        right: 60px;
+      }
+    }
+  }
+}
+
+.sk-rankings-chart__label {
+  font-size: 1.3rem;
+  display: none;
+  @include media--over--md {
+    font-size: 1.1rem;
+    display: block;
+  }
+  @include media--over--lg {
+    font-size: 1.3rem;
+    
+  } 
+
+  &:nth-child(1) {
+    left: 20%;
+    position: absolute;
+    top: -3em;
+  }
+  &:nth-child(2) {
+    position: absolute;
+    right: 150px;
+    top: -3em;
+  }
+  &:nth-child(3) {
+    font-size: 1.3rem;
+    position: absolute;
+    right: -30px;
+    text-align: center;
+    top: -5em;
+
+    &.double {
+      top: -6em;
+    }
+  }
+}
+
+.sk-rankings-chart__zero {
+  bottom: 100%;
+  left: -12px;
+  position: absolute;
+  text-align: center;
+  width: 24px;
+}
+
+.sk-rankings-chart__row-title {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 1.6rem;
+
+  @include media--over--md {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    text-align: right;
+    width: 20%;
+    font-size: 1.2rem;
+  }
+}
+
+.sk-rankings-chart__row {
+
+  @include media--over--md {
+    display: flex;
+  }
+
+  &:last-child {
+    .sk-rankings-chart__row-scores::after {
+      bottom: 36%;
+    }
+    .sk-rankings-chart__score-indicator {
+      top: calc(50% - 1px);
+    }
+    .sk-rankings-chart__score-placeholder,
+    .sk-rankings-chart__score-item {
+      height: 26px;
+      min-height: initial;
+      overflow: hidden;
+    }
+  }
+}
+
+.sk-rankings-chart__row-scores {
+  display: none;
+  flex-grow: 1;
+  position: relative;
+
+  @include media--over--md {
+    display: flex;
+  }
+
+  &::after {
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    content: '';
+    display: block;
+    left: 18px;
+    position: absolute;
+    top: 50%;
+    width: calc(100% + 170px);
+  }
+
+}
+
+.sk-rankings-chart__scores-container {
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+}
+
+.sk-rankings-chart__score-placeholder,
+.sk-rankings-chart__score-item {
+  border-right: 1px solid $grey;
+  min-height: 38px;
+  position: relative;
+  width: 4%;
+}
+
+.sk-rankings-chart__score-item {
+  width: 14.285714%;
+}
+
+.sk-rankings__score-label {
+  bottom: 100%;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  width: 24px;
+}
+
+.sk-rankings-chart__score-indicator {
+  @include circle(11px);
+  background: $orange;
+  left: 0;
+  position: absolute;
+  top: calc(50% - 5px);
+  transition: left $base-movement-transition;
+  z-index: 2;
+
+  &--two {
+    background: $red;
+  }
+
+  &--usa {
+    background: $blue--dark;
+  }
+
+  &--aus {
+    background: $red;
+  }
+
+  &--asia {
+    background: $green;
+  }
+}
+
+.sk-ranking-number {
+  align-items: center;
+  background: $orange;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  transition: all .3s;
+  @include circle(65px);
+
+  @include media--over--md {
+    @include circle(35px);
+  }
+
+  &--1 {
+    @include circle(90px);
+    &:before {
+      @include circle(90px);
+    }
+
+    @include media--over--md {
+      @include circle(35px);
+      &:before {
+        @include circle(35px);
+      }
+    }
+  }
+
+  &--2 {
+    @include circle(85px);
+    &:before {
+      @include circle(85px);
+    }
+
+    @include media--over--md {
+      @include circle(35px);
+      &:before {
+        @include circle(35px);
+      }
+    }
+  }
+
+  &--3 {
+    @include circle(80px);
+    &:before {
+      @include circle(80px);
+    }
+
+    @include media--over--md {
+      @include circle(35px);
+      &:before {
+        @include circle(35px);
+      }
+    }
+  }
+
+  &--4 {
+    @include circle(75px);
+    &:before {
+      @include circle(75px);
+    }
+
+    @include media--over--md {
+      @include circle(35px);
+      &:before {
+        @include circle(35px);
+      }
+    }
+  }
+
+
+  &::before {
+    background: $white;
+    border: 2px solid $blue;
+    content: '';
+    display: block;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    z-index: -1;
+    @include circle(65px);
+
+    @include media--over--md {
+      @include circle(35px);
+    }
+
+  }
+
+  &--1 {
+    &::before {
+      @include media--over--md {
+        opacity: 1;
+      }
+    }
+  }
+
+  &--emea {
+    background: $orange;
+  }
+
+  &--usa {
+    background: $blue--dark;
+  }
+
+  &--aus {
+    background: $red;
+  }
+
+  &--asia {
+    background: $green;
+  }
+
+  @include media--over--md {
+    @include dimensions(35px);
+    background: none;
+    border-radius: 0;
+    color: $black;
+  }
+
+  span {
+    display: block;
+
+    &:first-child {
+      padding-bottom: 3px;
+      margin-bottom: 3px;
+      border-bottom: 1px solid $white;
+    }
+
+    i {
+      @include media--over--md {
+        display: none;
+      }
+    }
+
+    &:first-of-type {
+      @include media--over--md {
+        display: none;
+      }
+    }
+  }
+}
+
+.js-city-two-ranking {
+  background: $red;
+  @include media--over--md {
+    background: none;
+  }
+}
+
+.sk-ranking-info {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  min-width: 160px;
+  position: relative;
+  text-align: center;
+  @include media--over--md {
+    left: 30px;
+  }
+}
+
+.sk-ranking__regions {
+  display: none;
+  text-align: center;
+
+  &--key {
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $grey;
+
+    .sk-ranking__region-name:before,
+    .sk-ranking__city-name:before {
+      width: 15px;
+      height: 15px;
+      margin-bottom: 5px;
+    }
+  }
+
+  @include media--over--md {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: -8px;
+    width: 160px;
+
+    &--key {
+      display: none;
+    }
+  }
+}
+
+.sk-ranking__city-name,
+.sk-ranking__region-name {
+  bottom: 100%;
+  left: 0;
+  position: absolute;
+  width: 50%;
+
+  &::before {
+    @include circle(10px);
+    background: $orange;
+    content: '';
+    display: block;
+    margin: 0 auto;
+  }
+
+  &--two {
+    left: 50%;
+
+    &::before {
+      background: $red;
+    }
+  }
+
+  &--usa {
+    left: 25%;
+
+    &::before {
+      background: $blue--dark;
+    }
+  }
+
+  &--aus {
+    left: 50%;
+
+    &::before {
+      background: $red;
+    }
+  }
+
+  &--asia {
+    left: 75%;
+
+    &::before {
+      background: $green;
+    }
+  }
+}
+
+.sk-ranking__city-name {
+  font-size: 1.1rem;
+}
+
+.sk-ranking__region-name {
+  width: 25%;
+}

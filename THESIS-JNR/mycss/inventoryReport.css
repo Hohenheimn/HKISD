@@ -1,0 +1,63 @@
+.p{
+    color: black;
+    font-size: 15px;
+    display: none;
+}
+.overflow{
+    margin-top: 20px;
+    overflow: auto;
+    height: 65vh;
+    box-shadow: 0 0 15px 0px #6362624f;
+    border-radius: 5px;
+}
+.h4{
+    display: none;
+}
+.jnrpic{
+    display: none;
+ 
+}
+.h51{
+    display: none;
+}
+
+.address{
+    display: none;
+}
+.buton{
+    margin-bottom: 20px;
+}
+.teybol{
+    width: 100%;
+
+}
+table td{
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+}
+table th{
+    padding: 15px;
+    font-size: 15px;
+    color: black;
+    position: sticky;
+    background-color: #dcedc8;
+}
+.una{
+    
+    width: 100%;
+}
+.btn{
+    margin-right: 15px;
+}
+.span{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+}
+@media(max-width: 500px){
+    .teybol{
+        width: 700px;
+    }
+}

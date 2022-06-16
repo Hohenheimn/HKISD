@@ -1,0 +1,7 @@
+<ul>
+                <li><a onclick="" class="twitter-share"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a onclick="" class="linkedin-share"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a onclick="" class="facebook-share"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a onclick="" aria-hidden="true" class="google-plus-share"><i class="icon-google-plus" aria-hidden="true"></i></a></li>
+                <li><a href="mailto:youremail@youremailaddress.com" onclick="" class="email-share"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            </ul>

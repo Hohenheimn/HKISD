@@ -1,0 +1,109 @@
+.section-podcast{
+    width: 100%;
+    background: #eff8fe;
+    .section-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 55px;
+        padding: 55px 30px 0px 30px;
+        max-width: 1210px;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+    .section-block{
+        width: 100%;
+    }
+    .section-header{
+        padding-bottom: 40px;
+        margin: 0 auto;
+        img{
+            margin: 0 auto;
+        }
+    }
+    .column-wrapper{
+        display: flex;
+        justify-content: center;
+        @media only screen and (max-width: 768px){
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .col{
+        display: flex;
+        @media only screen and (max-width: 768px){
+            justify-content: center;
+        }
+        &:first-child{
+            width: 43%;
+            justify-content: flex-end;
+            @media only screen and (max-width: 768px){
+                margin: 0 auto;
+                width: 100%;
+                margin-bottom: 20px;
+                justify-content: center;
+            }
+        }
+        &:last-child{
+            width: 57%;
+            margin-left: 40px;
+            text-align: left;
+            @media only screen and (max-width: 768px){
+                display: block;
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+    }
+    .col-block{
+        margin-bottom: 10px;
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+    .col-title{
+        margin-bottom: 20px;
+        p{
+            font-size: 30px;
+            letter-spacing: 0px;
+            line-height: 18px;
+            color: #707071;
+            font-family: 'Overpass';
+            font-weight: 600;
+        }
+    }
+    .block-title{
+        margin-bottom: 5px;
+        p{
+            font-size: 16px;
+            letter-spacing: 0px;
+            line-height: 18px;
+            color: #262626;
+            font-family: 'Overpass';
+            font-weight: 600;
+        }
+    }
+    .block-subtitle{
+        margin-bottom: 5px;
+        p{
+            font-size: 14px;
+            letter-spacing: 0px;
+            line-height: 18px;
+            color: #707071;
+            font-family: 'Overpass';
+            font-weight: 300;
+        }
+    }
+    .podcast-img{
+        max-width: 477px;
+        width: 100%;
+        @media only screen and  (max-width: 768px){
+            width: 100%;
+        }
+        img{
+            float: right;
+            width: 100%;
+        }
+    }
+}
