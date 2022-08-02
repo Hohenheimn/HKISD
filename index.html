@@ -11,6 +11,8 @@
 			<link rel="stylesheet" href="css/fontawesome.css">
 			<link rel="stylesheet" href="css/all.min.css">
 			<link rel="stylesheet" href="css/animate.min.css">
+			<script src="js/jquery-1.9.1.min.js"></script>
+			<script src="js/slick.min.js"></script>
     </head>
 
 
@@ -29,7 +31,7 @@
 
 				<article class="hk-nav-caption right">
 					<h1 data-aos="fade-in">HONG KONG: THE ART METROPOLIS OF ASIA</h1>
-					<p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut debitis, neque dignissimos totam accusantium necessitatibus quam velit dolorem obcaecati quasi molestiae tempora? Eligendi, quae consequuntur mollitia maxime recusandae in error.
 						A progressive vision for arts and culture is leading Hong Kong to the forefront of the international &nbsp; art world.
 					</p>
 				</article>
@@ -274,9 +276,9 @@
 			<article class="hk-slider-wrapper">
 				<button class="hk-slider1-prev"><img src="images/video-page/arr-left-blue.png" alt=""></button>
 				<button class="hk-slider1-next"><img src="images/video-page/arr-right-blue.png" alt=""></button>
-				<div class="hk-slider-1">
+				<div class="hk-slider-1" id="1">
 
-					<div class="hk-items">
+					<div class="hk-items" data-color="blue">
 
 						<figure class="hk-slider-img">
 							<img src="images/video-page/slide-img.jpg" alt="">
@@ -379,11 +381,13 @@
 		<section class="hk-explore-more-wrapper">
 			<article class="hk-slider-2">
 				<div class="hk-slider-container-2">
-					<button class="hk-slider2-prev"> <img src="images/video-page/arr-left-pink.png" alt=""></button>
-					<button class="hk-slider2-next"> <img src="images/video-page/arrow-right-pink.png" alt=""></button>
-					<ul class="hk-slider-2">
+					<script>var arrayOfColor = [];</script>
+					<button class="hk-slider2-prev"> <img class="prevImg" src="images/video-page/blue-left.png" alt=""></button>
+					<button class="hk-slider2-next"> <img class="nextImg" src="images/video-page/blue-right.png" alt=""></button>
+					<ul class="hk-slider-2-2 blue">
 
-						<li class="hk-slide-2-items">
+						<li class="hk-slide-2-items" data-color="blue">
+							<script>arrayOfColor.push("blue")</script>
 							<div class="hk-slide2-mini-title">
 								<p>video</p>
 							</div>
@@ -397,13 +401,14 @@
 								</figure>
 							</div>
 							<div class="hk-slider2-article">
-								<h1>lorem ipsum title of the video</h1>
+								<h1>lorem ipsum title of the video 1</h1>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia doloribus cumque quam, voluptate adipisci asperiores ullam incidunt eveniet nesciunt dicta molestiae enim quisquam deserunt reiciendis dolore numquam quis iusto quae!</p>
 								<p class="hk-watch-video"><a href="#">watch video</a></p>
 							</div>
 						</li>
 
-						<li class="hk-slide-2-items">
+						<li class="hk-slide-2-items" data-color="brown">
+							<script>arrayOfColor.push("brown")</script>
 							<div class="hk-slide2-mini-title">
 								<p>video</p>
 							</div>
@@ -417,7 +422,51 @@
 								</figure>
 							</div>
 							<div class="hk-slider2-article">
-								<h1>lorem ipsum title of the video</h1>
+								<h1>lorem ipsum title of the video 2</h1>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia doloribus cumque quam, voluptate adipisci asperiores ullam incidunt eveniet nesciunt dicta molestiae enim quisquam deserunt reiciendis dolore numquam quis iusto quae!</p>
+								<p class="hk-watch-video"><a href="#">watch video</a></p>
+							</div>
+						</li>
+
+						<li class="hk-slide-2-items" data-color="green">
+							<script>arrayOfColor.push("green")</script>
+							<div class="hk-slide2-mini-title">
+								<p>video</p>
+							</div>
+							<div class="hk-slide2-coming">
+								<h1>coming jan **th</h1>
+							</div>
+
+							<div class="hk-vide-slider-2-wrapper">
+								<figure class="hk-video-slider-2-container">
+									<iframe src="https://www.youtube.com/embed/2OlnG-GMSpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</figure>
+							</div>
+							<div class="hk-slider2-article">
+								<h1>lorem ipsum title of the video 3</h1>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia doloribus cumque quam, voluptate adipisci asperiores ullam incidunt eveniet nesciunt dicta molestiae enim quisquam deserunt reiciendis dolore numquam quis iusto quae!</p>
+								<p class="hk-watch-video"><a href="#">watch video</a></p>
+							</div>
+						</li>
+
+						<li class="hk-slide-2-items" data-color="pink">
+							<script>
+								arrayOfColor.push("pink")
+							</script>
+							<div class="hk-slide2-mini-title">
+								<p>video</p>
+							</div>
+							<div class="hk-slide2-coming">
+								<h1>coming jan **th</h1>
+							</div>
+
+							<div class="hk-vide-slider-2-wrapper">
+								<figure class="hk-video-slider-2-container">
+									<iframe src="https://www.youtube.com/embed/2OlnG-GMSpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</figure>
+							</div>
+							<div class="hk-slider2-article">
+								<h1>lorem ipsum title of the video 4</h1>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia doloribus cumque quam, voluptate adipisci asperiores ullam incidunt eveniet nesciunt dicta molestiae enim quisquam deserunt reiciendis dolore numquam quis iusto quae!</p>
 								<p class="hk-watch-video"><a href="#">watch video</a></p>
 							</div>
@@ -428,6 +477,24 @@
 
 			</article>
 		</section>
+		<script>
+			$('.hk-slider-2-2').slick({
+				prevArrow: '.hk-slider2-prev',
+				nextArrow: '.hk-slider2-next'
+			});
+			
+			$('.hk-slider-2-2').on('beforeChange', function(event, slick, nextSlide, slideCount){
+				const allItems = document.querySelectorAll('.hk-slide-2-items');
+				const color = arrayOfColor[slideCount]
+				const parentBg = document.querySelector('.hk-slider-2-2');
+				parentBg.classList.remove('blue', 'green', 'orange', 'pink', 'brown');
+				parentBg.classList.add(color);
+				const prevImg = document.querySelector('.prevImg');
+				const nextImg = document.querySelector('.nextImg');
+				nextImg.src = "images/video-page/"+color+"-right.png"
+				prevImg.src = "images/video-page/"+color+"-left.png"
+			});
+		</script>
 
 		<section class="hk-explore-more-wrapper">
 			<article class="hk-explore-more">
@@ -482,15 +549,12 @@
 			</article>
 		</section>
 
+		
+
 
 	</div>
 	</div>
 
-
-
-
-	<script src="js/jquery-1.9.1.min.js"></script>
-	<script src="js/slick.min.js"></script>
 	<script src="aos-master/dist/aos.js"></script>
 	<script src="js/fontawesome.js"></script>
 
@@ -575,12 +639,11 @@
 				prevArrow: '.hk-slider1-prev',
 				nextArrow: '.hk-slider1-next'
 			});
-
-			$('.hk-slider-2').slick({
-				prevArrow: '.hk-slider2-prev',
-				nextArrow: '.hk-slider2-next'
-			});
 		});
+
+		// const nextSlide = (e) => {
+		// 	console.log(e);
+		// }
 
 	</script>
 
